@@ -2,6 +2,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .w-60{
     width: 60%;
 }
@@ -15,5 +20,42 @@ body{
     padding: 1rem 0 0 0;
     font-size: .8rem;
     font-weight: 500;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.carousel{
+    top: -117px;
+}
+
+.banner-info{
+    margin-top: 15%;
+}
+
+.banner-info p{
+    font-weight: 300;
+    color: gray;
+}
+
+.btn-dark{
+    background-color: rgb(20, 20, 20);
+}
+
+.carousel img{
+    margin-left: 2%;
+    position: relative;
+    top: -30px;
+}
+
+.carousel-indicators .active{
     background-color: orange;
+    width: 24px;
+    border-radius: 40%;
+}
+
+.carousel-indicators li{
+    background-color: gray;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
 }
