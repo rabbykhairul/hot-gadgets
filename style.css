@@ -1,0 +1,12 @@
+.w-60{
+    width: 60%;
+}
+
+.navbar-brand img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.navbar{
+    padding: 1rem 0 0 0;
+}
