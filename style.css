@@ -59,3 +59,46 @@ body{
     width: 11px;
     border-radius: 50%;
 }
+
+h2{
+    font-size: 1.7rem;
+}
+
+.cat-header a{
+    color: rgba(255, 166, 0, 0.849);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.cat-header a:hover{
+    color: orange;
+}
+
+.card-deck{
+    padding: 20px;
+}
+
+.card-img-top{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+
+.card{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px #80808029;
+}
+
+.card-text{
+    font-size: .8rem;
+    font-weight: 300;
+    color: grey;
+}
+
+.card-footer{
+    background-color: transparent;
+    border-top: none;
+    border-radius: 15px;
+}
